@@ -1,0 +1,39 @@
+docs:
+  - title: Getting Started
+    url: /
+    children:
+      - title: "Introduction"
+        url: /introduction
+      - title: "Authentication"
+        url: /authentication
+      - title: "Important Notes"
+        url: /important-notes
+
+  - title: Schema
+    children:
+      - title: "Overview"
+        url: /schema/overview
+      - title: "Queries and Mutations"
+        url: /schema/queries-and-mutations
+      - title: "Trigger Area"
+        url: /schema/trigger-area
+
+  - title: Queries
+    url: /queries/
+    children:
+      - title: "API"
+        url: /queries/api
+      - title: "Current Weather"
+        url: /queries/api/current
+      - title: "Air Pollution"
+        url: /queries/api/air-pollution
+      - title: "Forecast"
+        url: /queries/api/forecast
+      - title: "Geocoding"
+        url: /queries/api/geocoding
+      - title: "One Call"
+        url: /queries/api/onecall
+      - title: "Trigger"
+        url: /queries/api/trigger
+      - title: "Complete Query"
+        url: /queries/complete

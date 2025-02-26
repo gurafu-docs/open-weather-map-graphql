@@ -1,0 +1,6 @@
+{
+  //   Use jekll syntax on all html files
+  "emmet.includeLanguages": {
+    "html": "liquid"
+  }
+}
