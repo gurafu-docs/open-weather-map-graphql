@@ -5,9 +5,6 @@ sees: ["_pages"]
 
 layout: home
 
-sidebar:
-  nav: "docs"
-
 logo: "/assets/images/logo.png"
 
 # share-links-active:

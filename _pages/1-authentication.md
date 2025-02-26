@@ -13,3 +13,11 @@ To authenticate your requests, you need to provide your Open Weather Map `appid`
 
 1. Include the `appid` in the request header as `x-owm-appid`.
 2. Pass the `appid` as an argument in the `api` field.
+
+```graphql
+query {
+  api(appid: "<APP_ID>") {
+    # ... rest of the query
+  }
+}
+```

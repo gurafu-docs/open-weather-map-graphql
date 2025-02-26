@@ -1,5 +1,5 @@
 ---
-title: Current Weather
+title: API
 permalink: /queries/api
 ---
 
