@@ -7,7 +7,48 @@ permalink: /queries/api/trigger
 
 The `trigger` field allows access to weather-based triggers and alert histories.
 
-## Query
+## List Triggers
+
+### Query
+
+```graphql
+query {
+  api {
+    trigger {
+      list {
+        _v
+        _id
+        time_period {
+          start {
+            expression
+            amount
+          }
+          end {
+            expression
+            amount
+          }
+        }
+        conditions {
+          name
+          expression
+          amount
+          _id
+        }
+        area {
+          _id
+          type
+          coordinates
+        }
+        alerts
+      }
+    }
+  }
+}
+```
+
+## Get Trigger
+
+### Query
 
 ```graphql
 query ($getId: ID!) {
@@ -44,7 +85,7 @@ query ($getId: ID!) {
 }
 ```
 
-## Variables
+### Variables
 
 ```json
 {

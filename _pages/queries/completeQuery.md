@@ -994,7 +994,6 @@ query (
 
 ```json
 {
-  "getId": "<insert trigger id>",
   "currentInput": {
     "lat": 40.7128,
     "lon": -74.006
@@ -1023,7 +1022,7 @@ query (
   },
   "hourlyOptions": {
     "units": "standard",
-    "lang": "sq",
+    "lang": "en",
     "cnt": 5
   },
   "sixteenInput": {
@@ -1032,7 +1031,7 @@ query (
   },
   "sixteenOptions": {
     "units": "standard",
-    "lang": "sq",
+    "lang": "en",
     "cnt": 5
   },
   "thirtyInput": {
@@ -1041,7 +1040,7 @@ query (
   },
   "thirtyOptions": {
     "units": "standard",
-    "lang": "sq",
+    "lang": "en",
     "cnt": 5
   },
   "fiveInput": {
@@ -1072,32 +1071,40 @@ query (
     "lang": "en",
     "cnt": 48
   },
-  "roadRiskInput": {
-    "tracks": [
-      {
-        "lat": 40.7128,
-        "lon": -74.006,
-        "dt": 1700000000
-      }
-    ]
-  },
   "currentAndForecastInput": {
     "lat": -58.98647823782459,
     "lon": 3.67210260248928
+  },
+  "currentAndForecastOptions": {
+    "units": "standard",
+    "lang": "en"
   },
   "daySummaryInput": {
     "lat": -58.98647823782459,
     "lon": 3.67210260248928,
     "date": "2020-01-01"
   },
+  "daySummaryOptions": {
+    "units": "standard",
+    "lang": "en"
+  },
   "overviewInput": {
     "lat": -58.98647823782459,
     "lon": 3.67210260248928
+  },
+  "overviewOptions": {
+    "date": "2020-01-01",
+    "units": "standard"
   },
   "timeMachineInput": {
     "lat": -58.98647823782459,
     "lon": 3.67210260248928,
     "dt": 1643803200
-  }
+  },
+  "timeMachineOptions": {
+    "units": "standard",
+    "lang": "en"
+  },
+  "getId": "<insert trigger id>"
 }
 ```

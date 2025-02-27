@@ -10,9 +10,9 @@ The `current` field retrieves real-time weather data from the OpenWeatherMap API
 ## Query
 
 ```graphql
-query ($currentInput1: LatLonInput!, $currentOptions: CurrentOptions) {
+query ($currentInput: LatLonInput!, $currentOptions: CurrentOptions) {
   api {
-    current(input: $currentInput1, options: $currentOptions) {
+    current(input: $currentInput, options: $currentOptions) {
       base
       visibility
       dt
@@ -75,7 +75,7 @@ query ($currentInput1: LatLonInput!, $currentOptions: CurrentOptions) {
 
 ```json
 {
-  "currentInput1": { "lat": 40.7128, "lon": -74.006 },
+  "currentInput": { "lat": 40.7128, "lon": -74.006 },
   "currentOptions": { "units": "metric", "lang": "en" }
 }
 ```
