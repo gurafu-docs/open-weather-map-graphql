@@ -1,6 +1,6 @@
 ---
 title: Important Notes
-permalink: /important-notes/
+permalink: /open-weather-map/important-notes/
 ---
 
 Some key information to keep in mind when using the Open Weather Map GraphQL API.

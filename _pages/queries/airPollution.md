@@ -1,6 +1,6 @@
 ---
 title: Air Pollution
-permalink: /queries/api/air-pollution
+permalink: /open-weather-map/queries/api/air-pollution
 ---
 
 ## Description

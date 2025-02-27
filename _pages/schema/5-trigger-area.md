@@ -1,6 +1,6 @@
 ---
 title: Trigger Area
-permalink: /schema/trigger-area/
+permalink: /open-weather-map/schema/trigger-area/
 ---
 
 Due to the loose structure of the `area.coordinates` on a `trigger` object, there are multiple options of handling the values during querying and mutation. Below are some useful examples of queries and query variables to help you get started.

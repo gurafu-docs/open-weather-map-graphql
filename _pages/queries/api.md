@@ -1,6 +1,6 @@
 ---
 title: API
-permalink: /queries/api
+permalink: /open-weather-map/queries/api
 ---
 
 ## Description

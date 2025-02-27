@@ -1,15 +1,15 @@
 ---
 title: Queries
-permalink: /queries/
+permalink: /open-weather-map/queries/
 ---
 
 Learn about the different queries available in the Open Weather Map GraphQL API.
 
-- [API](/queries/api)
-- [Current Weather](/queries/api/current)
-- [Air Pollution](/queries/api/air-pollution)
-- [Forecast](/queries/api/forecast)
-- [Geocoding](/queries/api/geocoding)
-- [One Call](/queries/api/onecall)
-- [Trigger](/queries/api/trigger)
-- [Complete Query](/queries/complete)
+- [API](/open-weather-map/queries/api)
+- [Current Weather](/open-weather-map/queries/api/current)
+- [Air Pollution](/open-weather-map/queries/api/air-pollution)
+- [Forecast](/open-weather-map/queries/api/forecast)
+- [Geocoding](/open-weather-map/queries/api/geocoding)
+- [One Call](/open-weather-map/queries/api/onecall)
+- [Trigger](/open-weather-map/queries/api/trigger)
+- [Complete Query](/open-weather-map/queries/complete)

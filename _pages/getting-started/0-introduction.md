@@ -1,9 +1,9 @@
 ---
-title: Open Weather Map GraphQL API
-permalink: /
+title: Introduction
+permalink: /open-weather-map/introduction/
 ---
 
-A GraphQL Proxy for the popular Open Weather Map API.
+Welcome to the Open Weather Map GraphQL API! This API allows you to interact with the Open Weather Map service using GraphQL queries and mutations.
 
 Key Features:
 
@@ -13,6 +13,10 @@ Key Features:
 - Navigate Open Weather API functionality quickly using GraphQL documentation.
 
 Simply build a query and provide an Open Weather API key and receive only the data you need.
+
+This document will provide a brief overview of the API and how to interact with it.
+
+For a full list of available queries, take a look at the [Queries](/open-weather-map/queries/) page.
 
 You must have your own account with Open Weather Map to use this GraphQL Proxy endpoint.
 

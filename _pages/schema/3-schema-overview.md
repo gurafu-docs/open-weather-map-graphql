@@ -1,11 +1,11 @@
 ---
 title: Schema Overview
-permalink: /schema/overview/
+permalink: /open-weather-map/schema/overview/
 ---
 
 ### Endpoint Breakdown
 
-These are the mappings of the Open Weather Map API endpoints to the GraphQL schema. Every reference to each of these fields in any query will return the data from the corresponding endpoint and contribute to the usage limits set by Open Weather Map. See the [Complete Query](#complete-query) section for a complete query example.
+These are the mappings of the Open Weather Map API endpoints to the GraphQL schema. Every reference to each of these fields in any query will return the data from the corresponding endpoint and contribute to the usage limits set by Open Weather Map. See the [Complete Query](/open-weather-map/queries) section for a complete query example.
 
 ```graphql
 query {
@@ -83,4 +83,4 @@ Additionally, there are options available for the `area.coordinates` field in th
 - `polygon_with_hole_coordinates`
 - `multi_polygon_coordinates`
 
-For more details, go to the [Trigger Area](/schema/overview/trigger-area) docs.
+For more details, go to the [Trigger Area](/open-weather-map/schema/overview/trigger-area) docs.

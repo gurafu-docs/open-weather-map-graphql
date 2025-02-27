@@ -1,6 +1,6 @@
 ---
 title: Queries and Mutations
-permalink: /schema/queries-and-mutations/
+permalink: /open-weather-map/schema/queries-and-mutations/
 ---
 
 ### Query

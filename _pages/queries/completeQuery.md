@@ -1,6 +1,6 @@
 ---
 title: Complete Query
-permalink: /queries/complete/
+permalink: /open-weather-map/queries/complete/
 ---
 
 ### Complete Query

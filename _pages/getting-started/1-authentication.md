@@ -1,6 +1,6 @@
 ---
 title: Authentication
-permalink: /authentication/
+permalink: /open-weather-map/authentication/
 ---
 
 ### RapidAPI

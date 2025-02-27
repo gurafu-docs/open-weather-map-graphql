@@ -1,39 +1,40 @@
 docs:
   - title: Getting Started
-    url: /
+    url: /open-weather-map/
     children:
       - title: "Introduction"
-        url: /introduction
+        url: /open-weather-map/introduction
       - title: "Authentication"
-        url: /authentication
+        url: /open-weather-map/authentication
       - title: "Important Notes"
-        url: /important-notes
+        url: /open-weather-map/important-notes
 
   - title: Schema
+    url: /open-weather-map/schema/
     children:
       - title: "Overview"
-        url: /schema/overview
+        url: /open-weather-map/schema/overview
       - title: "Queries and Mutations"
-        url: /schema/queries-and-mutations
+        url: /open-weather-map/schema/queries-and-mutations
       - title: "Trigger Area"
-        url: /schema/trigger-area
+        url: /open-weather-map/schema/trigger-area
 
   - title: Queries
-    url: /queries/
+    url: /open-weather-map/queries/
     children:
       - title: "API"
-        url: /queries/api
+        url: /open-weather-map/queries/api
       - title: "Current Weather"
-        url: /queries/api/current
+        url: /open-weather-map/queries/api/current
       - title: "Air Pollution"
-        url: /queries/api/air-pollution
+        url: /open-weather-map/queries/api/air-pollution
       - title: "Forecast"
-        url: /queries/api/forecast
+        url: /open-weather-map/queries/api/forecast
       - title: "Geocoding"
-        url: /queries/api/geocoding
+        url: /open-weather-map/queries/api/geocoding
       - title: "One Call"
-        url: /queries/api/onecall
+        url: /open-weather-map/queries/api/onecall
       - title: "Trigger"
-        url: /queries/api/trigger
+        url: /open-weather-map/queries/api/trigger
       - title: "Complete Query"
-        url: /queries/complete
+        url: /open-weather-map/queries/complete
