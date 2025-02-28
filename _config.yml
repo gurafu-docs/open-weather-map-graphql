@@ -5,8 +5,6 @@ sees: ["_pages"]
 
 layout: home
 
-logo: "/assets/images/logo.png"
-
 # share-links-active:
 #   twitter: true
 #   facebook: true
@@ -15,7 +13,7 @@ logo: "/assets/images/logo.png"
 github:
   is_project_page: false
 
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dark" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "en-US"
@@ -29,13 +27,13 @@ url: # the base hostname & protocol for your site e.g. "https://mmistakes.github
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo: "/assets/images/logo.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs: # true, false (default)
-words_per_minute: 200
-enable_copy_code_button: # true, false (default)
-copyright: # "copyright" name, defaults to site.title
-copyright_url: # "copyright" URL, defaults to site.url
+# words_per_minute: 200
+enable_copy_code_button: true #, false (default)
+# copyright: # "copyright" name, defaults to site.title
+# copyright_url: # "copyright" URL, defaults to site.url
 comments:
   provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
