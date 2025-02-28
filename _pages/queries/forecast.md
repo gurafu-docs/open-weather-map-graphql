@@ -1,6 +1,6 @@
 ---
 title: Forecast
-permalink: /open-weather-map/queries/api/forecast
+permalink: /open-weather-map/queries/api/forecast/
 ---
 
 ## Description

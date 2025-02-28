@@ -1,6 +1,6 @@
 ---
 title: Trigger API
-permalink: /open-weather-map/queries/api/trigger
+permalink: /open-weather-map/queries/api/trigger/
 ---
 
 ## Description

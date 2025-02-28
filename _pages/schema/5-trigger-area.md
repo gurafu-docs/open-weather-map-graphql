@@ -110,11 +110,19 @@ Would result in something like this:
 }
 ```
 
-##### Mutation Query Variables
+##### Mutation Variables
 
-The coordinates can be input usings the standard `coordinates` field, but there are additional fields with more specific names to help you input the coordinates in a more structured way. This should make it clearer what type of coordinates are being input.
+When adding a trigger via a mutation, there are multiple options for the `coordinates` input value.
 
-These types can still be messy due to the input fields being an array. For example, the difference between a Polygon with a Hole and one without isn't a type but an additional array of coordinates. If this doesn't suit you're needs, there is always the escape hatch of using the standard `coordinates` field, which will accept any JSON value. Validation is still carried out by the Open Weather Map API, so only valid values will be accepted.
+The simplest is via the `coordinates` field. Simply pass in an array of coordinates as you would for a standard API call.
+
+However, there are additional fields with more specific names to help you input the coordinates in a more structured way. This should make it clearer what type of coordinates are being input. It also offers a degree of type safety when using TypeScript or JSDocs.
+
+Note: These types can still get messy due to the input fields following the GeoJSON RFC.
+
+E.g., the difference between a Polygon with a Hole and one without isn't a type but an additional array of coordinates. If this doesn't suit you're needs, there is always the escape hatch of using the standard `coordinates` field, which will accept any JSON value.
+
+Validation is still carried out by the Open Weather Map API, so only valid values will be accepted.
 
 The same structure is available in both the `mutation.trigger.add` and `mutation.trigger.update` fields.
 

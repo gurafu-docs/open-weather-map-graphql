@@ -9,38 +9,38 @@ docs:
     url: /open-weather-map/
     children:
       - title: "Introduction"
-        url: /open-weather-map/introduction
+        url: /open-weather-map/introduction/
       - title: "Authentication"
-        url: /open-weather-map/authentication
+        url: /open-weather-map/authentication/
       - title: "Important Notes"
-        url: /open-weather-map/important-notes
+        url: /open-weather-map/important-notes/
 
   - title: Schema
     url: /open-weather-map/schema/
     children:
       - title: "Overview"
-        url: /open-weather-map/schema/overview
-      - title: "Queries and Mutations"
-        url: /open-weather-map/schema/queries-and-mutations
+        url: /open-weather-map/schema/overview/
+      - title: "Response Structure"
+        url: /open-weather-map/schema/response-structure/
       - title: "Trigger Area"
-        url: /open-weather-map/schema/trigger-area
+        url: /open-weather-map/schema/trigger-area/
 
   - title: Queries
     url: /open-weather-map/queries/
     children:
       - title: "API"
-        url: /open-weather-map/queries/api
+        url: /open-weather-map/queries/api/
       - title: "Current Weather"
-        url: /open-weather-map/queries/api/current
+        url: /open-weather-map/queries/api/current/
       - title: "Air Pollution"
-        url: /open-weather-map/queries/api/air-pollution
+        url: /open-weather-map/queries/api/air-pollution/
       - title: "Forecast"
-        url: /open-weather-map/queries/api/forecast
+        url: /open-weather-map/queries/api/forecast/
       - title: "Geocoding"
-        url: /open-weather-map/queries/api/geocoding
+        url: /open-weather-map/queries/api/geocoding/
       - title: "One Call"
-        url: /open-weather-map/queries/api/onecall
+        url: /open-weather-map/queries/api/onecall/
       - title: "Trigger"
-        url: /open-weather-map/queries/api/trigger
+        url: /open-weather-map/queries/api/trigger/
       - title: "Complete Query"
-        url: /open-weather-map/queries/complete
+        url: /open-weather-map/queries/complete/

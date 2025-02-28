@@ -1,6 +1,6 @@
 ---
 title: One Call API
-permalink: /open-weather-map/queries/api/onecall
+permalink: /open-weather-map/queries/api/onecall/
 ---
 
 ## Description

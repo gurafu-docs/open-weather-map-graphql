@@ -1,6 +1,6 @@
 ---
 title: Current Weather
-permalink: /open-weather-map/queries/api/current
+permalink: /open-weather-map/queries/api/current/
 ---
 
 ## Description

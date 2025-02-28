@@ -1,6 +1,6 @@
 ---
 title: Geocoding
-permalink: /open-weather-map/queries/api/geocoding
+permalink: /open-weather-map/queries/api/geocoding/
 ---
 
 ## Description
