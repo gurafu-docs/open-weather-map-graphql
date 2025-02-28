@@ -1,3 +1,9 @@
+index-nav:
+  - title: GraphQL APIs
+    children:
+      - title: "Open Weather Map"
+        url: /open-weather-map/
+
 docs:
   - title: Getting Started
     url: /open-weather-map/
