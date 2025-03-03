@@ -8,7 +8,7 @@ Here's a quick start guide to get you up and running with the Open Weather Map G
 
 1. Get an Open Weather Map API Key from the Open Weather Map [API Keys Dashboard](https://home.openweathermap.org/api_keys).
 
-2. Sign up to the [RapidAPI Open Weather Map API](https://rapidapi.com/community/api/open-weather-map).
+2. Sign up to the [RapidAPI Open Weather Map API](https://rapidapi.com/gurafu/api/open-weather-map-graphql).
 
 3. Run your first query in the RapidAPI Playground (Don't forget to replace `<API_KEY>` with your Open Weather Map `appid`):
 
@@ -46,4 +46,4 @@ query {
 
 And there you have it! You've just made your first query to the Open Weather Map GraphQL API. 🥳🎉🌤️
 
-See the [Queries](/open-weather-map/queries/) section for more information on the available queries and how to use them.
+See the [Queries](/open-weather-map/queries/) and [Mutations](/open-weather-map/mutations/) sections for more information on how to interact with the API.

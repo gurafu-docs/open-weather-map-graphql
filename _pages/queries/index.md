@@ -13,4 +13,5 @@ Learn about the different queries available in the Open Weather Map GraphQL API.
 - [Geocoding](/open-weather-map/queries/api/geocoding)
 - [One Call](/open-weather-map/queries/api/onecall)
 - [Trigger](/open-weather-map/queries/api/trigger)
+- [Road Risk](/open-weather-map/queries/api/road-risk)
 - [Complete Query](/open-weather-map/queries/complete)

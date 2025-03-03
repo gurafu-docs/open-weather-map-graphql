@@ -8,7 +8,7 @@ To use the Open Weather Map GraphQL endpoint, you need to authenticate your requ
 
 ### RapidAPI
 
-You can access the Open Weather Map API through RapidAPI. See the [RapidAPI Open Weather Map API](https://rapidapi.com/community/api/open-weather-map) for more information.
+You can access the Open Weather Map API through RapidAPI. See the [RapidAPI Open Weather Map API](https://rapidapi.com/gurafu/api/open-weather-map-graphql) for more information.
 
 ### Open Weather Map
 

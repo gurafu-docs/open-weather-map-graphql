@@ -44,6 +44,8 @@ docs:
         url: /open-weather-map/queries/api/onecall/
       - title: "Trigger"
         url: /open-weather-map/queries/api/trigger/
+      - title: "Road Risk"
+        url: /open-weather-map/queries/api/road-risk/
       - title: "Complete Query"
         url: /open-weather-map/queries/complete/
 
