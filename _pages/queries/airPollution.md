@@ -3,8 +3,6 @@ title: Air Pollution
 permalink: /open-weather-map/queries/api/air-pollution/
 ---
 
-## Description
-
 The `airPollution` field provides air quality data, including current conditions, forecasts, and historical data.
 
 ### Current

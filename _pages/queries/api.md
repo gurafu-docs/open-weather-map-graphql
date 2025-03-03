@@ -3,8 +3,6 @@ title: API
 permalink: /open-weather-map/queries/api/
 ---
 
-## Description
-
 The `api` field sites at the root of the query. It can take an optional `appid` argument to set the API key for the query.
 
 If not provided, the API key must be set as the request header `x-owm-appid`.

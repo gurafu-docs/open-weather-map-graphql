@@ -46,3 +46,9 @@ docs:
         url: /open-weather-map/queries/api/trigger/
       - title: "Complete Query"
         url: /open-weather-map/queries/complete/
+
+  - title: Mutations
+    url: /open-weather-map/mutations/
+    children:
+      - title: "Triggers"
+        url: /open-weather-map/mutations/triggers/

@@ -3,8 +3,6 @@ title: One Call API
 permalink: /open-weather-map/queries/api/onecall/
 ---
 
-## Description
-
 The `oneCall` field provides aggregated weather data, including forecasts, historical data, and alerts.
 
 ## Current and Forecast

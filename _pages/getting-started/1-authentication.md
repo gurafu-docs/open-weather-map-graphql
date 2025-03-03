@@ -1,6 +1,7 @@
 ---
 title: Authentication
 permalink: /open-weather-map/authentication/
+toc: false
 ---
 
 To use the Open Weather Map GraphQL endpoint, you need to authenticate your requests with our service via RapidAPI and Open Weather Map.

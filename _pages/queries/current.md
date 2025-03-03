@@ -3,11 +3,9 @@ title: Current Weather
 permalink: /open-weather-map/queries/api/current/
 ---
 
-## Description
-
 The `current` field retrieves real-time weather data from the OpenWeatherMap API.
 
-## Query
+### Query
 
 ```graphql
 query ($currentInput: LatLonInput!, $currentOptions: CurrentOptions) {
@@ -71,7 +69,7 @@ query ($currentInput: LatLonInput!, $currentOptions: CurrentOptions) {
 }
 ```
 
-## Variables
+### Variables
 
 ```json
 {

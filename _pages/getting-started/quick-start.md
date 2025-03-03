@@ -1,6 +1,7 @@
 ---
 title: Quick Start
 permalink: /open-weather-map/quick-start/
+toc: false
 ---
 
 Here's a quick start guide to get you up and running with the Open Weather Map GraphQL API.

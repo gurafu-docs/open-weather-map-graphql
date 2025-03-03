@@ -1,6 +1,7 @@
 ---
 title: Open Weather Map GraphQL API
 permalink: /open-weather-map/
+toc: false
 ---
 
 A GraphQL Proxy for the popular Open Weather Map API.

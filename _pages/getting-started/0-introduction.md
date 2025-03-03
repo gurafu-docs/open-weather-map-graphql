@@ -1,6 +1,7 @@
 ---
 title: Introduction
 permalink: /open-weather-map/introduction/
+toc: false
 ---
 
 Welcome to the Open Weather Map GraphQL API! This API allows you to interact with the Open Weather Map service using GraphQL queries and mutations.

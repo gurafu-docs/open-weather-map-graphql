@@ -285,11 +285,13 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      # read_time: true
       comments: # true
       share: true
       related: true
       classes: wide
+      toc: true
+      toc_sticky: true
       sidebar:
         nav: "docs"
 #

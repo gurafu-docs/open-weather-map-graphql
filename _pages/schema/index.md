@@ -1,6 +1,7 @@
 ---
 title: Schema
 permalink: /open-weather-map/schema/
+toc: false
 ---
 
 A GraphQL Proxy for the popular Open Weather Map API.

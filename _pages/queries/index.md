@@ -1,6 +1,7 @@
 ---
 title: Queries
 permalink: /open-weather-map/queries/
+toc: false
 ---
 
 Learn about the different queries available in the Open Weather Map GraphQL API.

@@ -3,8 +3,6 @@ title: Trigger API
 permalink: /open-weather-map/queries/api/trigger/
 ---
 
-## Description
-
 The `trigger` field allows access to weather-based triggers and alert histories.
 
 ## List Triggers

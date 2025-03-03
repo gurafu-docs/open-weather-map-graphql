@@ -3,8 +3,6 @@ title: Geocoding
 permalink: /open-weather-map/queries/api/geocoding/
 ---
 
-## Description
-
 The `geocoding` field provides location-based services, including direct, reverse, and ZIP code lookup.
 
 ## Direct Geocoding

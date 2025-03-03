@@ -3,8 +3,6 @@ title: Forecast
 permalink: /open-weather-map/queries/api/forecast/
 ---
 
-## Description
-
 The `forecast` field provides hourly, 5-day, 16-day, and 30-day weather forecasts.
 
 ## Hourly

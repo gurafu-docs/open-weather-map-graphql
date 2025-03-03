@@ -1,6 +1,7 @@
 ---
 title: Schema Overview
 permalink: /open-weather-map/schema/overview/
+toc: false
 ---
 
 These are the mappings of the Open Weather Map API endpoints to the GraphQL schema.
