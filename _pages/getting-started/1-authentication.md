@@ -24,3 +24,5 @@ query {
   }
 }
 ```
+
+You only need to provide the `appid` using one of the methods above.
