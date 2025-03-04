@@ -9,6 +9,8 @@ Allows you to add, update and delete triggers in the Open Weather Map API.
 
 Add a trigger to the Open Weather Map API. You will need to provide the following input fields:
 
+### Query
+
 ```graphql
 mutation ($addInput: TriggerInput!) {
   api {
@@ -44,6 +46,8 @@ mutation ($addInput: TriggerInput!) {
 }
 ```
 
+### Variables
+
 ```json
 {
   "addInput": {
@@ -77,6 +81,8 @@ mutation ($addInput: TriggerInput!) {
 ## Update
 
 Update a trigger in the Open Weather Map API. As with creating a trigger, you will need to provide all the fields in the input.
+
+### Query
 
 ```graphql
 mutation ($updateId: ID!, $updateInput: TriggerInput!) {
@@ -112,6 +118,8 @@ mutation ($updateId: ID!, $updateInput: TriggerInput!) {
   }
 }
 ```
+
+### Variables
 
 ```json
 {
@@ -181,5 +189,3 @@ Details about the response code can be found in `errors.extensions.info.response
   ]
 }
 ```
-
-Note: On `trigger.update`, if there are any input errors outside of the format and data structure, Open Weather Map responses with a generic 500 with the message `Incorrect data`, so make sure you checkout their [API documentation](https://openweathermap.org/api) for more information.
