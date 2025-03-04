@@ -4,9 +4,11 @@ permalink: /open-weather-map/schema/overview/
 toc: false
 ---
 
-These are the mappings of the Open Weather Map API endpoints to the GraphQL schema.
+These are the mappings of the Open Weather Map API endpoints to the GraphQL schema. Each of these fields corresponds to a specific endpoint in the Open Weather Map API.
 
-Every reference to each of these fields in any query will return the data from the corresponding endpoint and contribute to the usage limits set by Open Weather Map. See the [Queries](/open-weather-map/queries) section for field details.
+When used in a query, each one of these fields will make a request to the corresponding endpoint and contribute to the usage limits set by Open Weather Map.
+
+Checkout the [Queries](/open-weather-map/queries) and [Mutations](/open-weather-map/mutations) pages for more information on how to use these fields.
 
 ```graphql
 query {
@@ -52,7 +54,6 @@ mutation {
     trigger {
       add # /triggers
       update # /triggers/{id}
-      delete # /triggers/{id}
     }
   }
 }
