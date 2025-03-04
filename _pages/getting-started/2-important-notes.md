@@ -10,7 +10,7 @@ Some key information to keep in mind when using the Open Weather Map GraphQL API
 
 The GraphQL API is a wrapper around the Open Weather Map REST API. As such, the API is subject to the same rate limits and restrictions as the REST API. Please refer to the Open Weather Map documentation for more information.
 
-As of writing, Open Weather Map accounts from `Free` to `Professional` have a 60 call per minute rate limit. With multiple requests to the API being made in a single GraphQL request, it is important to keep track of the number of requests being made per call to avoid rate limiting.
+With multiple requests to the API being made in a single GraphQL request, it is important to keep track of the number of requests being made per call to avoid rate limiting.
 
 Any rate limits will return an `429` code in the `errors.extensions.info.response.status` field.
 
