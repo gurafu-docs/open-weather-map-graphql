@@ -10,9 +10,9 @@ Here's a quick start guide to get you up and running with the Open Weather Map G
 
 2. Sign up to the [RapidAPI Open Weather Map API](https://rapidapi.com/gurafu/api/open-weather-map-graphql).
 
-3. Run your first query in the [RapidAPI Playground](https://rapidapi.com/gurafu/api/open-weather-map-graphql/playground) (Don't forget to replace `<API_KEY>` with your Open Weather Map `appid`):
+3. Run your first query in the [RapidAPI Playground](https://rapidapi.com/gurafu/api/open-weather-map-graphql/playground) (Don't forget to replace `<API_KEY>` with your Open Weather Map `appid`).
 
-- When running from your own code, you will need to use the `x-rapidapi-key` header with your RapidAPI key. You can find your RapidAPI key in the [RapidAPI Playground](https://rapidapi.com/gurafu/api/open-weather-map-graphql/playground).
+**Note:** When running from your own code, you will need to use the `x-rapidapi-key` header with your RapidAPI key. You can find your RapidAPI key in the [RapidAPI Playground](https://rapidapi.com/gurafu/api/open-weather-map-graphql/playground).
 
 ```graphql
 query {
