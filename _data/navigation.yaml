@@ -26,6 +26,10 @@ docs:
         url: /open-weather-map/schema/response-structure/
       - title: "Trigger Area"
         url: /open-weather-map/schema/trigger-area/
+      - title: "Mock Mode"
+        url: /open-weather-map/schema/mock-mode/
+      - title: "Errors"
+        url: /open-weather-map/schema/errors/
 
   - title: Queries
     url: /open-weather-map/queries/
